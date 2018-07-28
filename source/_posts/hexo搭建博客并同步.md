@@ -1,9 +1,9 @@
 ---
 title: hexo搭建博客并同步
 date: 2018-07-28 16:20:04
-tags:
+tags: 安装与使用
 ---
-# 搭建博客
+## 搭建博客
 在任意盘下创建文件：
 ```
 mkdir hexo
@@ -33,7 +33,7 @@ hexo d
 ```
 稍等片刻后，在浏览器中输入`feifei1993.github.io`查看结果
 
-# 多电脑同步
+## 多电脑同步
 新建分支hexo，并设置为默认分支
 克隆到本地：
 ```
@@ -46,7 +46,7 @@ git add .
 git commit -m 'emm'
 git push
 ```
-# 新电脑
+## 新电脑
 克隆到本地：
 ```
 git clone https://github.com/feifei1993/feifei1993.github.io.git
